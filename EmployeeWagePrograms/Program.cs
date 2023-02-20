@@ -7,9 +7,15 @@ namespace EmployeeWageComputationUsingOOPS
     {
         public static void Main(string[] args)
         {
-            CheckEmployee obj= new CheckEmployee(); 
-            obj.checkEmployee();
+            // CheckEmployee obj= new CheckEmployee(); 
+            //obj.checkEmployee();
             //Console.WriteLine("Welcome to the Employee Wage Computation");
+            //CalculateDailyWage obj = new CalculateDailyWage();
+            //obj.CalculateDailyWage
+            CalculateMonthlyWage cm = new CalculateMonthlyWage();
+            cm.montlyWage();
+
+
         }
     }
 }
